@@ -14,11 +14,11 @@ def main():
     }
     # print(f"--- Begin report of {book_path} ---")
     print(f"{num_words} words found in the document")
-    # print("")
+    print("")
     # for char in character_ditionary:
     #     if char.isalpha():
     #         print(f"The {char} charcter was found {character_ditionary[char]} times")
-
+    print(character_ditionary)
     # print("--- End report ---")
 
 
