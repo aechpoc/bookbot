@@ -1,4 +1,4 @@
-from stats import get_num_words
+from stats import *
 
 
 def main():
@@ -12,14 +12,14 @@ def main():
             get_num_characters(text).items(), key=lambda item: item[1], reverse=True
         )
     }
-    print(f"--- Begin report of {book_path} ---")
+    # print(f"--- Begin report of {book_path} ---")
     print(f"{num_words} words found in the document")
-    print("")
-    for char in character_ditionary:
-        if char.isalpha():
-            print(f"The {char} charcter was found {character_ditionary[char]} times")
+    # print("")
+    # for char in character_ditionary:
+    #     if char.isalpha():
+    #         print(f"The {char} charcter was found {character_ditionary[char]} times")
 
-    print("--- End report ---")
+    # print("--- End report ---")
 
 
 main()
